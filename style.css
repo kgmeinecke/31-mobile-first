@@ -1,0 +1,91 @@
+main {
+  margin-top: 60px;
+}
+
+main h1 {
+  margin: 0 10px;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 65px;
+}
+
+main h2 {
+  margin: 18px 0 12px 0;
+  border-bottom: 1px solid #5c4f41;
+  font-family: "Special Elite", cursive;
+  font-size: 24px;
+}
+
+main h3 {
+  margin: 18px 0 12px 0;
+  border-bottom: 1px solid #5c4f41;
+  font-family: "Special Elite", cursive;
+  font-size: 18px;
+}
+
+main p {
+  font-family: "Roboto", sans-serif;
+  margin-top: 0;
+}
+
+.bg {
+  background-color: #775f47;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.container img {
+  width: 100%;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+}
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+
+  .container {
+    flex-direction: row;
+  }
+  
+  /* .container {
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    text-align: left;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+  .one {
+    flex: 1;
+  }
+  .two {
+    flex: 2
+  }
+
+  #middle {
+    justify-content: space-around;
+  }
+
+  .five {
+    justify-content: space-around;
+    background-color: #5c4f41;
+    width: 100vw;
+    padding: 20px 0px;
+  }
+  .five img {
+    width: 300px;
+  } */
+}
